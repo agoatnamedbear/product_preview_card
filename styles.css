@@ -45,7 +45,7 @@ body {
 }
 
 .card_body {
-  padding: 0 30px;
+  padding: 0 20px;
 }
 
 .prices {
@@ -64,6 +64,10 @@ body {
 
 .title {
   font-weight: 700;
+  font-size: 35px;
+  line-height: 0.9;
+  margin-bottom: 20px;
+  color: var(--very_dark_blue);
 }
 
 /* Desktop Size */
