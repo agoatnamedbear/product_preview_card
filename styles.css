@@ -70,5 +70,11 @@ body {
   color: var(--very_dark_blue);
 }
 
+.body_text {
+  color: var(--dark_grayish_blue);
+  line-height: 1.5;
+  font-family: var(--sans_serif);
+}
+
 /* Desktop Size */
 /* 610px x 450px */
