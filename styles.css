@@ -45,7 +45,7 @@ body {
 }
 
 .card_body {
-  padding: 0 20px;
+  margin: 0 20px;
 }
 
 .prices {
@@ -78,3 +78,15 @@ body {
 
 /* Desktop Size */
 /* 610px x 450px */
+
+@media screen and (min-width: 800px) {
+  .small {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 799px) {
+  .large {
+    display: none;
+  }
+}
