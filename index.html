@@ -19,21 +19,22 @@
   <body>
     <main class="card_container">
       <aside class="img_container">
-        <img
-          src="./images/image-product-mobile.jpg"
-          alt="perfume bottle"
-          class="product_img_small"
-        />
-        <img
-          src="./images/image-product-desktop.jpg"
-          alt="perfume bottle"
-          class="product_img_large"
-        />
+        <picture>
+          <source
+            media="(min-width: 768px)"
+            srcset="./images/image-product-desktop.jpg"
+          />
+          <img src="./images/image-product-mobile.jpg" alt="image of product" />
+        </picture>
       </aside>
 
       <section class="card_body">
         <p class="label">Perfume</p>
-        <h1 class="title">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="title small">Gabrielle Essence Eau De Parfum</h1>
+        <h1 class="title large">
+          Gabrielle <br />Essence Eau <br />
+          De Parfum
+        </h1>
         <p class="body_text small">
           A floral, solar and voluptuous <br />
           interpretation composed by Olivier <br />
