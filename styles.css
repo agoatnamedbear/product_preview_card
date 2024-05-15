@@ -33,6 +33,11 @@ body {
   background-color: var(--very_dark_blue);
 }
 
+img {
+  width: 100%;
+  height: 100%;
+}
+
 .card_container {
   width: 375px;
   height: 667px;
@@ -40,11 +45,6 @@ body {
   background-color: var(--cream);
   display: flex;
   flex-direction: column;
-}
-
-.product_img_small {
-  width: 100%;
-  border-radius: 10px;
 }
 
 .card_body {
@@ -120,10 +120,6 @@ body {
   .large {
     display: none;
   }
-
-  .product_img_large {
-    display: none;
-  }
 }
 
 @media screen and (min-width: 800px) {
@@ -141,10 +137,6 @@ body {
   }
 
   .small {
-    display: none;
-  }
-
-  .product_img_small {
     display: none;
   }
 
